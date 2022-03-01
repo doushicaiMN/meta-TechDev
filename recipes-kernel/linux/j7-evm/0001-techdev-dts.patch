@@ -1,0 +1,13 @@
+diff --git a/k3-j721e-common-proc-board.dts.org b/k3-j721e-common-proc-board.dts
+index cfb57f5..1db64fa 100644
+--- a/arch/arm64/boot/dts/ti/k3-j721e-common-proc-board.dts
++++ b/arch/arm64/boot/dts/ti/k3-j721e-common-proc-board.dts
+@@ -1017,3 +1017,7 @@
+ &csi0_port4 {
+ 	status = "disabled";
+ };
++
++&csi0_port0 {
++	status = "disabled";
++};
+\ No newline at end of file
